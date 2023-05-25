@@ -1,2 +1,3 @@
 # Image-Symbol-Cropper
 This Python code snippet allows you to crop symbols from an input image containing black symbols on a white background. 
+The code utilizes the matplotlib and numpy libraries to load and process the image. It defines a function crop_symbols that converts the image to grayscale, applies a threshold to convert it to a binary image, and finds contours representing individual symbols. The code then iterates over the contours, crops each symbol using a bounding rectangle, and saves the cropped symbol images as separate files. The resulting cropped symbol images can be used for further processing or analysis.
